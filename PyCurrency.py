@@ -1,4 +1,4 @@
-import re, urllib2, json, time, glob, os
+import urllib2, json, time, glob, os
 
 class PyCurrency:
 
