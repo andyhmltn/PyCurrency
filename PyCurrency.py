@@ -6,6 +6,7 @@ class PyCurrency:
 	def __init__(self, cachable = True, cacheFolder = 'cache', cacheTimeout = 3600):
 		if not os.access(cacheFolder, os.F_OK):
 			cachable = False
+			self.cachable = False
 
 		if cachable:
 			self.cachable     = True
